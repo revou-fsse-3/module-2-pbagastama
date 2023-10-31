@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Shibuya Sushi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon"
+        href="https://user-images.githubusercontent.com/2970318/209440270-8940c110-dcd2-45ba-aeef-d316cb241b00.png"
+        type="image/x-icon" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-menu">
+            <img id="nav-logo" src="./assets/Logo.jpg" alt="logo">
+            <ul class="nav-center">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="#">Reservation</a>
+            </div>
+
+            <div class="hamburger">
+                <img src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+                    alt="Hamburger Icon">
+                <!-- <span><a href="#">Menu</a></span>
+        <span><a href="#">Home</a></span>
+        <span><a href="#">Contact</a></span> -->
+            </div>
+        </div>
+    </nav>
+
+    <header class="full-screen">
+        <h1>WELCOME TO SHIBUYA SUSHI</h1>
+        <h2>Caution! Our sushi is addictive</h2>
+        <!-- <div class="reserve-now">
+      <a href="#">RESERVE NOW</a>
+    </div> -->
+    </header>
+
+    <main>
+        <section>
+            <h2>Why Shibuya Sushi ?</h2>
+        </section>
+
+        <section>
+            <div class="grid-container">
+                <div>
+                    <img src="./assets/chef.jpg" alt="chef">
+                    <h3>Chef from Japan</h3>
+                    <p>Our chef is from Shibuya, Japan.<br>
+                        With more than 5 years of sushi making experience</p>
+                </div>
+                <div>
+                    <img src="./assets/money.jpg" alt="money">
+                    <h3>Cheep</h3>
+                    <p>Guaranteed the cheapest prices in Indonesia</p>
+                </div>
+                <div>
+                    <img src="./assets/restaurant.jpg" alt="money">
+                    <h3>Japan View</h3>
+                    <p>Presents views of Japan and cherry blossoms</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reservation">
+            <aside>
+                <h2>Our chef profile</h2>
+                <iframe width="500" height="400" src="https://www.youtube.com/embed/JkeRhKnROds"
+                    title="Saito: The Sushi God of Tokyo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </aside>
+
+            <div class="form-reservation">
+                <h2>Reservation</h2>
+                <form action="#">
+                    <fieldset>
+                        <legend>Personal Data :</legend>
+                        <div>
+                            <label for="firstName">First Name : </label>
+                            <input id="firstName" type="text" required>
+                            <label for="lastName">Last Name : </label>
+                            <input id="lastName" type="text" required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email : </label>
+                            <input id="email" type="email">
+                            <label for="phoneNum">Phone : </label>
+                            <input id="email" type="number">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information : </legend>
+                        <div>
+                            <label for="date">Date : </label>
+                            <input type="date" id="date">
+                            <label for="pax">Pax : </label>
+                            <select name="pax" id="pax">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <label for="occasion">Occasion : </label>
+                            <select name="occasion" id="occasion">
+                                <option value="no-event">No Event</option>
+                                <option value="lunch">Lunch</option>
+                                <option value="dinner">Dinner</option>
+                                <option value="birthday">Birthday</option>
+                                <option value="anniversary">Anniversary</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <p>Additional Request : </p>
+                            <textarea cols="50" rows="3"></textarea>
+                        </div>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>

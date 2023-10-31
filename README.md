@@ -1,1 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DUj7T_Sj)
+## Week 3 Assignment
+[Link Website](https://www.instagram.com/pbagastama/)
+
+# Introduce ME
+
+## Hi I am Bagas Pratama
+---
+
+- **Full Name** : Bagas Pratama
+- **City**  : Bekasi
+- **Hobby** : Football, Badminton, Sport Enthusiast.
+- **Full Name** : Bagas Pratama
+- **Current Company** : MicroAd Indonesia
+- **Position/Role** : Senior Frontend Web Developer
+- **Experience** : 5 Years (Since 2018)
+
+## Social Media Account
+- [Instagram](https://www.instagram.com/pbagastama/)
+- [Twitter](https://twitter.com/pbagastama)
+- [Github](https://github.com/pbagastama)
+- [Linkedin](https://www.linkedin.com/in/pbagastama/)
